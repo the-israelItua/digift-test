@@ -1,0 +1,25 @@
+@import "../../../../styles/functions.scss";
+
+.customers {
+  margin: 0 pxToRem(80) pxToRem(103);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: pxToRem(103);
+  h3 {
+    font-size: pxToEm(56);
+    font-weight: 700;
+    line-height: pxToRem(72);
+    letter-spacing: -0.02em;
+    width: pxToRem(780);
+    margin-bottom: pxToRem(64);
+  }
+
+  &__comments {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: pxToRem(24);
+  }
+}

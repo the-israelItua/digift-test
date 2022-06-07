@@ -1,0 +1,7 @@
+@import "../../../../styles/functions.scss";
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  margin: pxToRem(0) pxToRem(64) pxToRem(154);
+}

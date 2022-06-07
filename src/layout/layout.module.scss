@@ -1,0 +1,9 @@
+@import "../styles/functions.scss";
+
+.layout {
+  position: relative;
+
+  &__children {
+    padding-top: pxToRem(96);
+  }
+}

@@ -1,0 +1,29 @@
+@import "../../styles/functions.scss";
+
+.featureCard {
+  background: rgba(194, 221, 255);
+  height: pxToRem(628);
+  width: pxToRem(640);
+  border-radius: pxToRem(10);
+  padding: pxToRem(72) pxToRem(64);
+  position: relative;
+
+  p {
+    width: pxToRem(407);
+    font-size: pxToEm(48);
+    font-weight: 700;
+    line-height: pxToRem(58);
+    letter-spacing: -0.03em;
+
+    span {
+      color: #0078ff;
+    }
+  }
+  img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: pxToRem(285);
+    width: 92%;
+  }
+}
